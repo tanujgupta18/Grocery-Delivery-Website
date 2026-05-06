@@ -54,6 +54,12 @@ import barley_image from "./barley_image.png";
 import star_icon from "./star_icon.svg";
 import star_dull_icon from "./star_dull_icon.svg";
 import cart_icon from "./cart_icon.svg";
+import bottom_banner_image from "./bottom_banner_image.png";
+import bottom_banner_image_sm from "./bottom_banner_image_sm.png";
+import delivery_truck_icon from "./delivery_truck_icon.svg";
+import leaf_icon from "./leaf_icon.svg";
+import coin_icon from "./coin_icon.svg";
+import trust_icon from "./trust_icon.svg";
 
 export const assets = {
   logo,
@@ -68,6 +74,8 @@ export const assets = {
   star_icon,
   star_dull_icon,
   cart_icon,
+  bottom_banner_image,
+  bottom_banner_image_sm,
 };
 
 export const categories = [
@@ -694,5 +702,28 @@ export const dummyProducts = [
     createdAt: "2025-03-25T07:17:46.018Z",
     updatedAt: "2025-03-25T07:18:13.103Z",
     inStock: true,
+  },
+];
+
+export const features = [
+  {
+    icon: delivery_truck_icon,
+    title: "Fastest Delivery",
+    description: "Groceries delivered in under 30 minutes.",
+  },
+  {
+    icon: leaf_icon,
+    title: "Freshness Guaranteed",
+    description: "Fresh produce straight from the source.",
+  },
+  {
+    icon: coin_icon,
+    title: "Affordable Prices",
+    description: "Quality groceries at unbeatable prices.",
+  },
+  {
+    icon: trust_icon,
+    title: "Trusted by Thousands",
+    description: "Loved by 10,000+ happy customers.",
   },
 ];
