@@ -60,6 +60,8 @@ import delivery_truck_icon from "./delivery_truck_icon.svg";
 import leaf_icon from "./leaf_icon.svg";
 import coin_icon from "./coin_icon.svg";
 import trust_icon from "./trust_icon.svg";
+import remove_icon from "./remove_icon.svg";
+import arrow_right_icon_colored from "./arrow_right_icon_colored.svg";
 
 export const assets = {
   logo,
@@ -76,6 +78,8 @@ export const assets = {
   cart_icon,
   bottom_banner_image,
   bottom_banner_image_sm,
+  remove_icon,
+  arrow_right_icon_colored,
 };
 
 export const categories = [
@@ -757,5 +761,21 @@ export const footerLinks = [
       { text: "Facebook", url: "#" },
       { text: "YouTube", url: "#" },
     ],
+  },
+];
+
+export const dummyAddress = [
+  {
+    _id: "67b5b9e54ea97f71bbc196a0",
+    userId: "67b5880e4d09769c5ca61644",
+    firstName: "Great",
+    lastName: "Stack",
+    email: "user.greatstack@gmail.com",
+    street: "Street 123",
+    city: "Main City",
+    state: "New State",
+    zipcode: 123456,
+    country: "IN",
+    phone: "1234567890",
   },
 ];
