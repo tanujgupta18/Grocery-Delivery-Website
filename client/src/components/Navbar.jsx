@@ -42,7 +42,7 @@ const Navbar = () => {
             src={assets.nav_cart_icon}
             alt="cart"
           />
-          <button className="absolute -top-2 -right-3 text-xs text-white bg-primary w-[18px] h-[18px] rounded-full">
+          <button className="absolute -top-2 -right-3 text-xs text-white bg-primary w-4.5 h-4.5 rounded-full">
             3
           </button>
         </div>
@@ -85,7 +85,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {open && (
         <div
-          className={`${open ? "flex" : "hidden"} absolute top-[60px] left-0 w-full bg-white shadow-md py-4 flex-col items-start gap-2 px-5 text-sm md:hidden`}
+          className={`${open ? "flex" : "hidden"} absolute top-15 left-0 w-full bg-white shadow-md py-4 flex-col items-start gap-2 px-5 text-sm md:hidden`}
         >
           <NavLink to="/" onClick={() => setOpen(false)}>
             Home
