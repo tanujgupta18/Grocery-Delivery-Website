@@ -62,6 +62,7 @@ import coin_icon from "./coin_icon.svg";
 import trust_icon from "./trust_icon.svg";
 import remove_icon from "./remove_icon.svg";
 import arrow_right_icon_colored from "./arrow_right_icon_colored.svg";
+import add_address_image from "./add_address_image.svg";
 
 export const assets = {
   logo,
@@ -80,6 +81,7 @@ export const assets = {
   bottom_banner_image_sm,
   remove_icon,
   arrow_right_icon_colored,
+  add_address_image,
 };
 
 export const categories = [
