@@ -14,7 +14,7 @@ const AddProduct = () => {
   };
 
   return (
-    <div className="no-scrollbar flex flex-col justify-between flex-1 h-[95vh] overflow-y-auto">
+    <div className="no-scrollbar flex flex-col justify-between flex-1 h-[95vh] overflow-y-scroll">
       <form
         onSubmit={onSubmitHandler}
         className="md:p-10 p-4 space-y-5 max-w-lg"
