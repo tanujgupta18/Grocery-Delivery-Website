@@ -63,6 +63,9 @@ import trust_icon from "./trust_icon.svg";
 import remove_icon from "./remove_icon.svg";
 import arrow_right_icon_colored from "./arrow_right_icon_colored.svg";
 import add_address_image from "./add_address_image.svg";
+import add_icon from "./add_icon.svg";
+import product_list_icon from "./product_list_icon.svg";
+import order_icon from "./order_icon.svg";
 
 export const assets = {
   logo,
@@ -82,6 +85,9 @@ export const assets = {
   remove_icon,
   arrow_right_icon_colored,
   add_address_image,
+  add_icon,
+  product_list_icon,
+  order_icon,
 };
 
 export const categories = [
