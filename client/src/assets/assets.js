@@ -66,6 +66,7 @@ import add_address_image from "./add_address_image.svg";
 import add_icon from "./add_icon.svg";
 import product_list_icon from "./product_list_icon.svg";
 import order_icon from "./order_icon.svg";
+import upload_area from "./upload_area.png";
 
 export const assets = {
   logo,
@@ -88,6 +89,7 @@ export const assets = {
   add_icon,
   product_list_icon,
   order_icon,
+  upload_area,
 };
 
 export const categories = [
